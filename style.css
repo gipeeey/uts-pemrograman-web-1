@@ -171,10 +171,57 @@ body {
 
 /* ============================================================
    DIKERJAKAN OLEH: HARYO
-   Styling untuk tabel Skills
+   Styling untuk section Skills
    ============================================================ */
 
-/* ISI DI SINI */
+#skills {
+  padding: 60px 40px;
+  background-color: #ffffff;
+}
+
+#skills h2 {
+  text-align: center;
+  color: #1e3a5f;
+  margin-bottom: 15px;
+}
+
+#skills > p {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #555;
+}
+
+#skills h3 {
+  color: #1e3a5f;
+  margin: 25px 0 12px;
+  border-bottom: 2px solid #f59e0b;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+#skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+#skills li {
+  background-color: #f1f5f9;
+  color: #1e3a5f;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid #e2e8f0;
+}
+
+#skills li:hover {
+  background-color: #1e3a5f;
+  color: #ffffff;
+}
 
 
 /* ============================================================
@@ -229,4 +276,95 @@ body {
    Styling untuk Education, Lists, Contact, Footer
    ============================================================ */
 
-/* ISI DI SINI */
+/* Education */
+#education {
+  padding: 60px 40px;
+  background-color: #f7f9fc;
+}
+
+#education h2 {
+  text-align: center;
+  color: #1e3a5f;
+  margin-bottom: 30px;
+}
+
+.education-item {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-left: 5px solid #f59e0b;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-item h3 {
+  color: #1e3a5f;
+  margin-bottom: 5px;
+}
+
+.education-item h4 {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+#education > h3 {
+  color: #1e3a5f;
+  margin: 25px 0 12px;
+}
+
+#education ul,
+#education ol {
+  padding-left: 25px;
+  margin-bottom: 15px;
+}
+
+#education li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+/* Contact */
+#contact {
+  padding: 60px 40px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#contact h2 {
+  color: #1e3a5f;
+  margin-bottom: 15px;
+}
+
+.contact-list {
+  list-style: none;
+  max-width: 450px;
+  margin: 20px auto 0;
+}
+
+.contact-list li {
+  background-color: #f1f5f9;
+  padding: 12px 20px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.contact-list a {
+  color: #1e3a5f;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  color: #f59e0b;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #1e3a5f;
+  color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  padding: 25px 20px;
+  font-size: 0.9rem;
+}
